@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="web-navigation">
+                <!-- Logo -->
+                <a class="logo" href="./index.html"><span class="all_name"><span>Web</span>Studio</span></a>
+                <!-- Nawigacja -->
+                <ul class="navigation">
+                    <li class="navigation-item"><a href="./index.html" class="active">Agencja</a></li>
+                    <li class="navigation-item"><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="navigation-item"><a href="">Kontakt</a></li>
+                </ul>
+                <!-- Kontakt -->
+                <ul class="navigation">
+                    <li class="navigation-item">
+                        <a class="data-contact" href="mailto:info@devstudio.com">
+                            <svg class="navigation-icon">
+                                <use href="images/sprite.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="data-contact" href="tel:+48111111111">
+                            <svg class="navigation-icon">
+                                <use href="images/sprite.svg#icon-smartphone"></use>
+                            </svg>(+48)111111111</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Część środkowa -->
+    <main>
+        <section class="section heading">
+            <div class="container">
+                <h1>Efektywne rozwiązania dla waszego biznesu</h1>
+                <button type="button" class="button_index" data-modal-open>Zamów usługę</button>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <ul class="list">
+                    <li class="area-goal">
+                        <svg class="goal-icon">
+                            <use href="./images/sprite.svg#icon-antenna"></use>
+                        </svg>
+                        <h3 class="goal-title">Lorem ipsum</h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem.
+                            Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                    <li class="area-goal">
+                        <svg class="goal-icon">
+                            <use href="./images/sprite.svg#icon-clock"></use>
+                        </svg>
+                        <h3 class="goal-title">Lorem ipsum</h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem.
+                            Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                    <li class="area-goal">
+                        <svg class="goal-icon">
+                            <use href="./images/sprite.svg#icon-diagram"></use>
+                        </svg>
+                        <h3 class="goal-title">Lorem ipsum</h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem.
+                            Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                    <li class="area-goal">
+                        <svg class="goal-icon">
+                            <use href="./images/sprite.svg#icon-astronaut"></use>
+                        </svg>
+                        <h3 class="goal-title">Lorem ipsum</h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem.
+                            Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2>Czym się zajmujemy?</h2>
+                <ul class="list">
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_0.jpg"
+                            alt="Tablet, ręce piszące na klawiaturze"/>
+                        <p class="occupation">Aplikacje komputerowe</p>
+                    </li>
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_1.jpg"
+                            alt="Na wyświetlaczu komputera trzy szkice telefonów komórkowych, osoba siedzi przed komputerem, jedna ręka na komputerze, a w drugiej trzyma telefon"
+                            width="370" height="294" />
+                        <p class="occupation">Aplikacje mobilne</p>
+                    </li>
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_2.jpg"
+                            alt="Klawiatura na stole. Tablet w ręce, na ekranie tabletu paleta barw" width="370"
+                            height="294" />
+                        <p class="occupation">Rozwiązania graficzne</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team section">
+            <div class="container">
+                <h2>Nasz zespół</h2>
+                <ul class="list list-1">
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_4.jpg"
+                            alt="Młody mężczyzna w okularach" width="270" height="260" />
+                        <h3 class="group">John Doe</h3>
+                        <p class="profession">Product Designer</p>
+                        <ul class="contacts-icons">
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="./images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="./images/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="./images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_5.jpg"
+                            alt="Młoda kobieta w okularach" width="270" height="260" />
+                        <h3 class="group">John Doe</h3>
+                        <p class="profession">Frontend Developer</p>
+                        <ul class="contacts-icons">
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="./images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="./images/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_6.jpg"
+                            alt="Uśmiechnięty młody mężczyzna bez okularów" width="270" height="260" />
+                        <h3 class="group">John Doe</h3>
+                        <p class="profession">Marketing</p>
+                        <ul class="contacts-icons">
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="image-space">
+                        <img src="https://raw.githubusercontent.com/EwelinaManiecka/goit-markup-hw-01/main/images/img_3.jpg"
+                            alt="Młody mężczyzna w okularach" width="270" height="260" />
+                        <h3 class="group">John Doe</h3>
+                        <p class="profession">UI Designer</p>
+                        <ul class="contacts-icons">
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list">
+                                <a class="social-icons-item" href="#">
+                                    <svg class="social-icons">
+                                        <use href="images/sprite.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2>Nasi klienci</h2>
+                <ul class="as_clients list">
+                    <li class="type_clients">
+                        <svg class="icon-client">
+                            <use href="images/sprite.svg#icon-Logo-6"></use>
+                        </svg>
+                    </li>
+                    <li class="type_clients">
+                        <svg class="icon-client">
+                            <use href="images/sprite.svg#icon-Logo-5"></use>
+                        </svg>
+                    </li>
+                    <li class="type_clients">
+                        <svg class="icon-client">
+                            <use href="images/sprite.svg#icon-Logo-4"></use>
+                        </svg>
+                    </li>
+                    <li class="type_clients">
+                        <svg class="icon-client">
+                            <use href="images/sprite.svg#icon-Logo-3"></use>
+                        </svg>
+                    </li>
+                    <li class="type_clients">
+                        <svg class="icon-client">
+                            <use href="images/sprite.svg#icon-Logo-2"></use>
+                        </svg>
+                    </li>
+                    <li class="type_clients">
+                        <svg class="icon-client">
+                            <use href="images/sprite.svg#icon-Logo-1"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="post_office">
+                <a href="./index.html"><span class="second_name"><span>Web</span>Studio</span></a>
+                <address>
+                    <ul class="net-contact">
+                        <li>m.Warszawa, Aleje Jerozolimskie <br /></li>
+                        <li><a href="mailto:info@example.com"><span class="contact_footer">info@example.com</span></a>
+                        </li>
+                        <li><a href="tel:+48111111111"><span class="contact_footer">+48111111111</span></a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="other-web">
+                <h3>Dołącz do nas</h3>
+                <ul class="contacts-icons">
+                    <li class="social-list">
+                        <a class="social-icons-item-footer" href="#">
+                            <svg class="social-icons">
+                                <use href="images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list">
+                        <a class="social-icons-item-footer" href="#">
+                            <svg class="social-icons">
+                                <use href="images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list">
+                        <a class="social-icons-item-footer" href="#">
+                            <svg class="social-icons">
+                                <use href="images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list">
+                        <a class="social-icons-item-footer" href="#">
+                            <svg class="social-icons">
+                                <use href="images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="add-newsletter">
+                <h3>Zapisz się do newslettera</h3>
+                <div class="newsletter-contact">
+                    <form>
+                    <label class="mail">
+                        <input type="email" name="email" placeholder="E-mail"/>
+                    </label>
+                    <div class="submission_newsletter">
+                        <button type="submit" class="submission newsletter-btn">Zapisz się
+                            <svg class="icon-newsletter">
+                                <use href="images/sprite.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <svg class="close-btn" data-modal-close>
+            <use href="images/sprite.svg#icon-close-black"></use>
+        </svg>
+        <form class="modal-form" action="#" method="post" autocomplete="on">
+            <h2>Zostaw swoje dane w formularzu poniżej</h2>
+            <div class="modal-title">
+                <label>Imię
+                <input type="text" required/>
+                <svg class="modal-icon-contact-person">
+                    <use href="images/sprite.svg#icon-person-black-18dp-1"></use>
+                </svg>
+                </label>
+            </div>
+            <div class="modal-title">
+            <label>Telefon
+                <input type="tel" required/>
+                <svg class="modal-icon-contact-phone">
+                    <use href="images/sprite.svg#icon-phone-black-18dp-1"></use>
+                </svg>
+            </label>
+            </div>
+            <div class="modal-title">
+            <label>Email
+                <input type="email" name="email" required/>
+                <svg class="modal-icon-contact-mail">
+                    <use href="images/sprite.svg#icon-email-black-18dp-1"></use>
+                </svg>
+            </label>
+            </div>
+            <div class="modal-title">
+            <label>Komentarz
+                <textarea name="feedback" rows="6" placeholder="Wprowadź tekst"></textarea>
+            </label>
+            </div>
+            <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy" required>
+            <label for="user-policy" class="modal-form-policy-text">Oświadczam, iż akceptuję 
+                <a href="#" class="modal-regulation-link">Regulamin</a> i <a href="#" class="modal-regulation-link">Politykę prywatności</a>.</label>
+            <button type="submit" class="submission win-modal">Wyślij</button>
+
+        </form>
+    </form>
+    </div>
+</div>
+    <script src="modal.js"></script>
+</body>
+
+</html>
