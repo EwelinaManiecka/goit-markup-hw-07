@@ -34,6 +34,11 @@ h3 {
 
 /* fragment z wyliczonymi elementami bez kropek z wyliczenia */
 
+.list__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .list {
     list-style: none;
     display: flex;
@@ -76,30 +81,31 @@ header {
     align-items: center;
 }
 
-.navigation {
+.web-navigation__list {
     display: flex;
     list-style: none;
 }
 
-.navigation-item {
+.web-navigation__item {
     margin-left: 50px;
 }
 
-.navigation-item:hover
-.navigation-icon {
+.web-navigation__item:hover
+.web-navigation__icon {
     fill: var(--main-color);
     cursor: pointer;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.data-contact {
+.web-navigation__data-contact {
     color: var(--bring-shadow);
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
-.navigation-icon {
+.web-navigation__icon {
     height: 16px;
     width: 18px;
     fill: var(--bring-shadow);
@@ -257,13 +263,26 @@ h2 {
 
 /*tło pod zespołem*/
 
-.team {
+.team-1 {
     background-color: rgba(245, 244, 250, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.team {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* cel-tytuł: lorem ipsum stylowanie*/
 
-.area-goal {
+.list__area-goal {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -273,12 +292,12 @@ h2 {
     align-items: center;
 }
 
-.goal-icon {
+.list__goal-icon {
     height: 70%;
     width: 270px;
 }
 
-.goal-title {
+.list__goal-title {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.17;
@@ -295,7 +314,7 @@ p {
 
 /* Zespół - stylowanie*/
 
-.group {
+.team__group {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.17;
@@ -319,7 +338,7 @@ p {
 
 /* Wykonywane zadanie w zespole - stylowanie*/
 
-.profession {
+.team__profession {
     font-size: 16px;
     line-height: 1.17;
     color: var(--bring-shadow);
@@ -364,7 +383,7 @@ p {
     overflow: hidden;
 }
 
-.image-space:hover .overlay {
+.list__image-space:hover .overlay {
 transform: translateY(-100%);
 }
 
@@ -390,7 +409,7 @@ transform: translateY(-100%);
 /*stylowanie zdjęć w naszym zespole 
 - trójwymiar i szerokość*/
 
-.list-1>.image-space {
+.list-1>.list__image-space {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 270px;
@@ -400,13 +419,19 @@ transform: translateY(-100%);
 /*Stylowanie zdjęć w czym się zajmujemy
 - odstępy między zdjęciami*/
 
-.list>.image-space {
+.team__image-space {
     padding-left: 0;
     background-color: white;
+    list-style: none;
+}
+
+.team__container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /*napisy do zdjęć z sekcji czym się zajmujemy*/
-.occupation {
+.list__occupation {
     text-transform: uppercase;
     background-color: var(--dark-shadow);
     color: var(--button-text-color);
@@ -421,7 +446,7 @@ transform: translateY(-100%);
 }
 
 /* Ikonki kontaktowe z sekcji o zespole*/
-.contacts-icons {
+.team__contacts-icons {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -430,12 +455,12 @@ transform: translateY(-100%);
     margin-right: 10px;
 }
 
-.social-list {
+.team__social-list {
     display: block;
     list-style: none;
 }
 
-.social-icons-item {
+.team__social-icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -446,7 +471,7 @@ transform: translateY(-100%);
     fill: rgba(175, 177, 184, 1);
 }
 
-.social-icons {
+.team__social-icon {
     width: 20px;
     height: 20px;
     display: flex;
@@ -454,8 +479,8 @@ transform: translateY(-100%);
     justify-content: center;
 }
 
-.social-icons-item:hover,
-.social-icons-item:focus {
+.team__social-icons:hover,
+.team__social-icon:focus {
     fill: #ffffff;
     background-color: var(--main-color);
     transition: 250ms;
@@ -464,11 +489,19 @@ transform: translateY(-100%);
 
 /*sekcja o klientach*/
 
-.icon-client {
+.clients {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.client__icon {
     color: var(--bring-shadow);
 }
 
-.type_clients {
+.clients__type {
     background-color: #FFFFFF;
     width: 170px;
     height: 92px;
@@ -482,7 +515,7 @@ transform: translateY(-100%);
 
 /* Zmiana koloru - najechanie myszą*/
 
-.type_clients:hover {
+.clients__type:hover {
     fill: var(--main-color);
     border: 1px solid var(--main-color);
     cursor: pointer;
@@ -542,15 +575,31 @@ footer>.container {
     align-items: center;
 }
 
-.other-web>h3 {
+.other>h3 {
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.other-web{
+.other{
     margin-left: 70px;
 }
-.social-icons-item-footer{
+
+.other__social-list {
+    display: block;
+    list-style: none;
+}
+
+.other__contacts-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.other__social-icons{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -563,8 +612,16 @@ footer>.container {
     fill: #FFFFFF;
 }
 
-.social-icons-item-footer:hover,
-.social-icons-item-footer:focus {
+.other__social-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other__social-icons:hover,
+.other__social-icon:focus {
     fill: #ffffff;
     background-color: var(--main-color);
     transition: 250ms;
