@@ -162,3 +162,15 @@ textarea:focus-within{
     margin-top: -40px;
     padding: 0;
 }
+
+.modal__regulation-link {
+    color: var(--main-color);
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}

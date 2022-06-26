@@ -628,18 +628,18 @@ footer>.container {
 }
 
 /*Newsletter*/
-.add-newsletter>h3 {
+.newsletter>h3 {
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     padding-bottom: 30px;
 }
 
-.add-newsletter{
+.newsletter{
     margin-left: 70px;
     padding-top: 0;
 }
 
-.newsletter-contact {
+.newsletter__contact {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -661,13 +661,13 @@ footer>.container {
     border: var(--bring-shadow);
     color: var(--button-text-color);
 }
-.submission_newsletter {
+.newsletter__submission {
     padding-left: 10px;
     display: flex;
     align-items: center;
 }
 
-.icon-newsletter{
+.newsletter__icon{
     width: 24px;
     height: 24px;
     position: absolute;
@@ -675,7 +675,7 @@ footer>.container {
     top: 13px;
 }
 
-.newsletter-btn {
+.newsletter__btn {
     position: absolute;
     right: 580px;
     top: 2935px;
