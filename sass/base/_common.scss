@@ -35,3 +35,26 @@ address {
     font-style: normal;
     line-height: 1.71;
 }
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+
+    &:hover {
+    color: var(--main-color);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}

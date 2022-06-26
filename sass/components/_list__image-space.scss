@@ -3,8 +3,8 @@
     border-radius: 0px 0px 4px 4px;
     width: 270px;
     margin-bottom: 30px;
-}
 
-.list__image-space:hover .overlay {
+&:hover .overlay {
     transform: translateY(-100%);
     }
+}

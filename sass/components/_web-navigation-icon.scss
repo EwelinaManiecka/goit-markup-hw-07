@@ -3,11 +3,11 @@
     width: 18px;
     fill: var(--bring-shadow);
     margin-right: 10px;
-}
 
-.web-navigation__icon /*może chodzić tutaj o hover*/ {
+&:hover /*może chodzić tutaj o hover*/ {
         fill: var(--main-color);
         cursor: pointer;
         transition: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+}
