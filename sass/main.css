@@ -69,6 +69,20 @@ h1 {
   display: flex;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.13;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -123,6 +137,48 @@ span {
   font-size: 26px;
 }
 
+.heading {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-shadow);
+  margin: 0 auto;
+  max-width: 1600px;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button_index {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
+  color: var(--button-text-color);
+  background-color: var(--main-color);
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px 42px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button_index:hover {
+  cursor: pointer;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-head {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+
+.button-head button:not(last-child) {
+  margin-right: 8px;
+}
+
 .list__goal-title {
   font-size: 16px;
   font-weight: 700;
@@ -156,6 +212,16 @@ span {
   width: 270px;
 }
 
+.description {
+  line-height: 1.17;
+  color: var(--bring-shadow);
+  width: 270px;
+  justify-content: center;
+}
+.description:not(:last-child) {
+  padding-left: 30px;
+}
+
 .list__container {
   width: 1200px;
   margin: 0 auto;
@@ -166,6 +232,7 @@ span {
   border-radius: 0px 0px 4px 4px;
   width: 270px;
   margin-bottom: 30px;
+  list-style: none;
 }
 .list__image-space:hover .overlay {
   transform: translateY(-100%);
@@ -199,6 +266,12 @@ span {
   align-items: center;
 }
 
+.team__social-list {
+  display: block;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 .team__image-space {
   padding-left: 0;
   background-color: white;
@@ -230,6 +303,7 @@ span {
   border-radius: 50%;
   margin-bottom: 30px;
   fill: rgb(175, 177, 184);
+  list-style: none;
 }
 .team__social-icons:hover {
   fill: #ffffff;
@@ -281,6 +355,8 @@ span {
 
 .client__icon {
   color: var(--bring-shadow);
+  width: 20px;
+  height: 20px;
 }
 
 footer {
