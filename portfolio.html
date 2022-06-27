@@ -8,7 +8,7 @@
     <title>WebStudio</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
@@ -22,21 +22,21 @@
                 <a class="logo" href="./index.html"><span class="all_name"><span>Web</span>Studio</span></a>
                 <!-- Nawigacja -->
                 <ul class="web-navigation__list">
-                    <li class="web-navigation__item"><a href="./index.html" class="active">Agencja</a></li>
-                    <li class="web-navigation__item"><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="web-navigation__item web-navigation__item--active"><a href="./index.html" class="active">Agencja</a></li>
+                    <li class="web-navigation__item web-navigation__item--active"><a href="./portfolio.html">Portfolio</a></li>
                     <li class="web-navigation__item"><a href="">Kontakt</a></li>
                 </ul>
                 <!-- Kontakt -->
-                <ul class="navigation">
+                <ul class="web-navigation">
                     <li class="web-navigation__item">
-                        <a class="data-contact" href="mailto:info@devstudio.com">
+                        <a class="web-navigation__data-contact" href="mailto:info@devstudio.com">
                             <svg class="web-navigation__icon">
                                 <use href="images/sprite.svg#icon-envelope"></use>
                             </svg>
                             info@devstudio.com</a>
                     </li>
                     <li class="web-navigation__item">
-                        <a class="data-contact" href="tel:+48111111111">
+                        <a class="web-navigation__data-contact" href="tel:+48111111111">
                             <svg class="web-navigation__icon">
                                 <use href="images/sprite.svg#icon-smartphone"></use>
                             </svg>(+48)111111111</a>
@@ -183,61 +183,61 @@
         </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="post_office">
+        <div class="footer__container">
+            <div class="footer__contact">
                 <a href="./index.html"><span class="second_name"><span>Web</span>Studio</span></a>
                 <address>
-                    <ul class="net-contact">
+                    <ul class="contact__net">
                         <li>m.Warszawa, Aleje Jerozolimskie <br /></li>
-                        <li><a href="mailto:info@example.com"><span class="contact_footer">info@example.com</span></a>
+                        <li><a href="mailto:info@example.com"><span class="contact__net-footer">info@example.com</span></a>
                         </li>
-                        <li><a href="tel:+48111111111"><span class="contact_footer">+48111111111</span></a></li>
+                        <li><a href="tel:+48111111111"><span class="contact__net-footer">+48111111111</span></a></li>
                     </ul>
                 </address>
             </div>
-            <div class="other-web">
+            <div class="other">
                 <h3>Dołącz do nas</h3>
-                <ul class="contacts-icons">
-                    <li class="social-list">
-                        <a class="social-icons-item-footer" href="#">
-                            <svg class="social-icons">
+                <ul class="other__contacts-icons">
+                    <li class="other__social-list">
+                        <a class="other__social-icons" href="#">
+                            <svg class="other__social-icon">
                                 <use href="images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-list">
-                        <a class="social-icons-item-footer" href="#">
-                            <svg class="social-icons">
+                    <li class="other__social-list">
+                        <a class="other__social-icons" href="#">
+                            <svg class="other__social-icon">
                                 <use href="images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-list">
-                        <a class="social-icons-item-footer" href="#">
-                            <svg class="social-icons">
+                    <li class="other__social-list">
+                        <a class="other__social-icons" href="#">
+                            <svg class="other__social-icon">
                                 <use href="images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-list">
-                        <a class="social-icons-item-footer" href="#">
-                            <svg class="social-icons">
+                    <li class="other__social-list">
+                        <a class="other__social-icons" href="#">
+                            <svg class="other__social-icon">
                                 <use href="images/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="add-newsletter">
+            <div class="newsletter">
                 <h3>Zapisz się do newslettera</h3>
-                <div class="newsletter-contact">
+                <div class="newsletter__contact">
                     <form>
-                        <label class="mail">
-                            <input type="email" name="email" placeholder="E-mail"/>
-                        </label>
-                    <div class="submission_newsletter">
-                        <button type="submit" class="submission newsletter-btn">Zapisz się
-                            <svg class="icon-newsletter">
+                    <label class="mail">
+                        <input type="email" name="email" placeholder="E-mail"/>
+                    </label>
+                    <div class="newsletter__submission">
+                        <button type="submit" class="submission newsletter__btn">Zapisz się
+                            <svg class="newsletter__icon">
                                 <use href="images/sprite.svg#icon-icon-send"></use>
                             </svg>
                         </button>
