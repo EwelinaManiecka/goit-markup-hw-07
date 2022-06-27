@@ -95,6 +95,19 @@ h3 {
   align-items: center;
 }
 
+.web-navigation {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-navigation__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
 .web-navigation__icon {
   height: 16px;
   width: 18px;
@@ -179,9 +192,12 @@ span {
   margin-right: 8px;
 }
 
-.list__container {
-  width: 1200px;
-  margin: 0 auto;
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .list__goal-title {
