@@ -411,6 +411,16 @@ footer {
   font-style: normal;
 }
 
+.contact__net {
+  list-style: none;
+  padding-left: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact__net-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .second_name span {
   font-family: "Raleway";
   color: var(--main-color);
@@ -480,6 +490,7 @@ span {
   position: absolute;
   right: 580px;
   top: 2935px;
+  margin-top: 33px;
 }
 
 .other {
@@ -542,6 +553,11 @@ span {
 .contact__net {
   list-style: none;
   padding-left: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact__net-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .button {
