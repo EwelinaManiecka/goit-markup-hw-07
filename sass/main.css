@@ -406,6 +406,11 @@ footer {
   line-height: 1.19;
 }
 
+span {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
 .second_name {
   font-family: "Raleway";
   color: white;
@@ -517,6 +522,11 @@ footer {
 .other > h3 {
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.contact__net {
+  list-style: none;
+  padding-left: 0;
 }
 
 .button {
