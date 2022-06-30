@@ -158,6 +158,15 @@ span {
   font-size: 26px;
 }
 
+.active::after {
+  content: "";
+  display: block;
+  width: 58px;
+  border-top: 4px solid var(--main-color);
+  position: relative;
+  top: 28px;
+}
+
 .heading {
   height: 600px;
   display: flex;
