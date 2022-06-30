@@ -4,7 +4,7 @@
     fill: var(--bring-shadow);
     margin-right: 10px;
 
-&:hover /*może chodzić tutaj o hover*/ {
+&:hover {
         fill: var(--main-color);
         cursor: pointer;
         transition: 250ms;
